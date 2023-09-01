@@ -1,0 +1,138 @@
+[debug] [2023-09-01T11:32:35.896Z] ----------------------------------------------------------------------
+[debug] [2023-09-01T11:32:35.900Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\subta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-01T11:32:35.901Z] CLI Version:   12.5.2
+[debug] [2023-09-01T11:32:35.902Z] Platform:      win32
+[debug] [2023-09-01T11:32:35.902Z] Node Version:  v18.17.1
+[debug] [2023-09-01T11:32:35.903Z] Time:          Fri Sep 01 2023 16:32:35 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-09-01T11:32:35.903Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-01T11:32:35.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-01T11:32:35.919Z] > authorizing via signed-in user (subtainjutt26@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Saylani React Project\Assignment
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-01T11:32:46.956Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-09-01T11:32:47.903Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-09-01T11:32:47.904Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project assignment-smit67 (Assignment) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-09-01T11:32:57.360Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-09-01T11:32:57.771Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-09-01T11:32:57.771Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.3.1","browserURL":"https://www.gstatic.com/firebasejs/10.3.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.3.1/firebase.tgz"},"live":{"version":"10.3","browserURL":"https://www.gstatic.com/firebasejs/live/10.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.3/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.3.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.3.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.3.1/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.3.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.3.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.3.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.3.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.3.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.3.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.3.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Detected a .git folder at E:\Saylani React Project\Assignment 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=360240072&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-09-01T11:52:42.884Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-09-01T11:52:42.898Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-09-01T11:52:45.204Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-09-01T11:52:45.205Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-09-01T11:52:45.515Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-09-01T11:52:46.092Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-09-01T11:52:46.093Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"MuhammadSabtainJatt","id":128613291,"node_id":"U_kgDOB6p7qw","avatar_url":"https://avatars.githubusercontent.com/u/128613291?v=4","gravatar_id":"","url":"https://api.github.com/users/MuhammadSabtainJatt","html_url":"https://github.com/MuhammadSabtainJatt","followers_url":"https://api.github.com/users/MuhammadSabtainJatt/followers","following_url":"https://api.github.com/users/MuhammadSabtainJatt/following{/other_user}","gists_url":"https://api.github.com/users/MuhammadSabtainJatt/gists{/gist_id}","starred_url":"https://api.github.com/users/MuhammadSabtainJatt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MuhammadSabtainJatt/subscriptions","organizations_url":"https://api.github.com/users/MuhammadSabtainJatt/orgs","repos_url":"https://api.github.com/users/MuhammadSabtainJatt/repos","events_url":"https://api.github.com/users/MuhammadSabtainJatt/events{/privacy}","received_events_url":"https://api.github.com/users/MuhammadSabtainJatt/received_events","type":"User","site_admin":false,"name":"Muhammad Sabtain","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":10,"public_gists":0,"followers":0,"following":0,"created_at":"2023-03-22T14:25:08Z","updated_at":"2023-09-01T11:27:59Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":1122,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as MuhammadSabtainJatt 
+[info] 
+[debug] [2023-09-01T11:52:56.496Z] >>> [apiv2][query] GET https://api.github.com/repos/public/actions/secrets/public-key type=owner
+[debug] [2023-09-01T11:52:57.052Z] <<< [apiv2][status] GET https://api.github.com/repos/public/actions/secrets/public-key 404
+[debug] [2023-09-01T11:52:57.052Z] <<< [apiv2][body] GET https://api.github.com/repos/public/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-09-01T11:53:00.158Z] >>> [apiv2][query] GET https://api.github.com/repos/public/actions/secrets/public-key type=owner
+[debug] [2023-09-01T11:53:00.689Z] <<< [apiv2][status] GET https://api.github.com/repos/public/actions/secrets/public-key 404
+[debug] [2023-09-01T11:53:00.690Z] <<< [apiv2][body] GET https://api.github.com/repos/public/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-09-01T12:18:51.179Z] >>> [apiv2][query] GET https://api.github.com/repos/MuhammadSabtainJatt/Firebase-Assignment/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:18:51.759Z] <<< [apiv2][status] GET https://api.github.com/repos/MuhammadSabtainJatt/Firebase-Assignment/actions/secrets/public-key 401
+[debug] [2023-09-01T12:18:51.760Z] <<< [apiv2][body] GET https://api.github.com/repos/MuhammadSabtainJatt/Firebase-Assignment/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:00.326Z] >>> [apiv2][query] GET https://api.github.com/repos/MuhammadSabtainJatt/Firebase-Assignment/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:01.326Z] <<< [apiv2][status] GET https://api.github.com/repos/MuhammadSabtainJatt/Firebase-Assignment/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:01.327Z] <<< [apiv2][body] GET https://api.github.com/repos/MuhammadSabtainJatt/Firebase-Assignment/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:34.281Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:34.794Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:34.795Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:37.174Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:37.668Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:37.669Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:47.275Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:47.776Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:47.777Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:49.819Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:50.318Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:50.318Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:50.475Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:50.684Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:50.893Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:50.967Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:50.968Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:51.092Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:51.193Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:51.193Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:51.304Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:51.407Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:51.408Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:51.595Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:51.595Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:51.806Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:51.806Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:52.308Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:52.831Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:52.831Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:53.532Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:53.759Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:53.968Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:54.047Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:54.047Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:54.251Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:54.251Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:54.475Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:54.476Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:54.783Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:54.962Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:55.276Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:55.276Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:55.449Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:55.449Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:55.917Z] >>> [apiv2][query] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:56.087Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-09-01T12:19:56.420Z] <<< [apiv2][status] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:56.421Z] <<< [apiv2][body] GET https://api.github.com/repos/(MuhammadSabtainJatt/Firebase-Assignment)/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-09-01T12:19:56.593Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-09-01T12:19:56.593Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
